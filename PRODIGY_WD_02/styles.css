@@ -1,0 +1,64 @@
+/* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff5f6d, #ffc371);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.clock, .stopwatch {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+button:disabled {
+    background: rgba(255, 255, 255, 0.5);
+    cursor: not-allowed;
+}
+
+.laps {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.lap {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
